@@ -54,7 +54,7 @@ namespace fq2 {
         let t1 = fq.mul(a.e0, b.e0);
         let t2 = fq.mul(a.e1, b.e1);
         let t3 = fq.add(b.e0, b.e1);
-        %{
+        %{  
             print_u_256_info(ids.a.e0,"a.e0")
             print_u_256_info(ids.b.e0,"b.e0")
 
